@@ -1,0 +1,118 @@
+    1  ls
+    2  git congig --list
+    3  git config --list
+    4  git config --global user.name "Phuthumane Matiwane"
+    5  git config --global user.email "phuthumanem@gmail.com"
+    6  git config --list
+    7  clear
+    8  git config --global user.name "Nonkonzo-stack"
+    9  git config --global user.email "nmlobeli077@gmail.com"
+   10  git config --list
+   11  git clone https://github.com/Nonkonzo-stack/beginning-bash-exercise.git
+   12  ls
+   13  cd beginning-bash-exercise
+   14  ls
+   15  git status
+   16  git status --short
+   17  clear
+   18  git branch testing
+   19  git branch
+   20  git switch testing
+   21  ls
+   22  git status --short
+   23  git status
+   24  git add *
+   25  git status
+   26  git commit -m "Answered the exercises questions"
+   27  git status
+   28  ls
+   29  git branch
+   30  git switch main
+   31  git merge testing
+   32  git status
+   33  git branch
+   34  git branch -d testing
+   35  git branch
+   36  git remote
+   37  git show origin
+   38  git push origin main
+   39  cd ..
+   40  mkdir new-fol
+   41  cd new-fol
+   42  rm -r new-fol
+   43  cd ..
+   44  cd new-fol
+   45  echo "Hello world" > test.txt
+   46  ls
+   47  cd ..
+   48  rm -r new-fol
+   49  ls
+   50  clear
+   51  mkdir git-basic-exercises
+   52  cd git-basic exercises
+   53  cd git-basic-exercises
+   54  ls -a
+   55  ls
+   56  git init
+   57  ls
+   58  ls -a
+   59  git status
+   60  touch README.md
+   61  ls
+   62  ls -a
+   63  git status
+   64  git log
+   65  git add README.md
+   66  git status
+   67  git rm --cached README.MD
+   68  git rm --cached README.md
+   69  git status
+   70  git commit -a -m "initial commit"
+   71  git status
+   72  git add README.md
+   73  git status --short
+   74  git commit -m "initial commit,"
+   75  git status
+   76  git log
+   77  nano README.md
+   78  cat README.md
+   79  git status
+   80  git commit -a -m "second commit"
+   81  git status
+   82  git log
+   83  nano README.md
+   84  cat README.md
+   85  git status
+   86  git log
+   87  git add
+   88  git add *
+   89  git status
+   90  git commit -m "third commit"
+   91  git status
+   92  git log
+   93  git checkout 92021c57b9da31dbda64d03891b7f665fe373c2c
+   94  cat README.md
+   95  git checkout main
+   96  git checkout master
+   97  cat README.md
+   98  clear
+   99  git branch
+  100  git branch milkshake-flavours
+  101  git branch
+  102  git switch milkshake-flavours
+  103  ls -a
+  104  nano milkshakes.md
+  105  cat milkshakes.md
+  106  git status
+  107  git add milkshakes.md
+  108  git status
+  109  git commit -m "added initial flavours"
+  110  git status
+  111  git log
+  112  git switch master
+  113  ls
+  114  git checkout -b history
+  115  ls
+  116  git log
+  117  git branch
+  118  history > history.txt
